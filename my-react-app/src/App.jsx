@@ -1,11 +1,11 @@
-import Card from './Card.jsx';
+import Button from './Button/Button.jsx';
 
 
 function App() {
   return(
     <>
       
-      <Card title="Raouf Hamaissia" description="I am learning react" />
+      <Button/>
       
       
     </>
