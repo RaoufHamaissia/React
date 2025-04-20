@@ -20,7 +20,7 @@
         }
         return (
             <div className='counter-container'>
-                <h1 className='count-display'>Counter: {count}</h1>
+                <h1 className='counter-display'>Counter: {count}</h1>
                 <button className='counter-button' onClick={increment} >Increment</button>
                 <button className='counter-button' onClick={reset}>Reset</button>
                 <button className='counter-button' onClick={decrement}>Decrement</button>
