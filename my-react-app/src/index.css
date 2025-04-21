@@ -26,3 +26,8 @@
 .counter-button:hover {
   background-color: hsl(197, 100%, 40%);
 }
+
+li:hover {
+  background-color: hsl(197, 100%, 90%);
+  cursor: pointer;
+}
