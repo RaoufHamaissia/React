@@ -10,8 +10,7 @@
 // useMemo() = React hook that lets you memoize a value in a functional component
 
 
-import MyComponent from "./MyComponent.jsx";
-import MyComponent2 from "./MyComponent2.jsx";
+import ToDoList from './ToDoList.jsx';
 
 
 
@@ -24,7 +23,7 @@ function App() {
   return(
     <>
       
-     <MyComponent2/>
+     <ToDoList/>
       
       
       
