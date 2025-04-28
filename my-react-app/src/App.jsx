@@ -10,9 +10,14 @@
 // useMemo() = React hook that lets you memoize a value in a functional component
 
 
-import DigitalClock from "./DigitalClock.jsx";
+// useContext() = React hook that allows you to share value 
+//                between multiple levels of components
+//                without passing props down manually at every level
 
-
+import  ComponentA from "./ComponentA.jsx";
+import  ComponentB from "./ComponentB.jsx";
+import  ComponentC from "./ComponentC.jsx";
+import  ComponentD from "./ComponentD.jsx";
 
 
 
@@ -22,7 +27,8 @@ function App() {
   return(
     <>
       
-     <DigitalClock/>
+     <ComponentA/>
+      
       
       
       
