@@ -14,7 +14,7 @@
 //                between multiple levels of components
 //                without passing props down manually at every level
 
-import  MyComponent from "./MyComponent.jsx";
+import Stopwatch from "./Stopwatch.jsx"
 
 
 
@@ -24,7 +24,7 @@ function App() {
   return(
     <>
       
-     <MyComponent/>
+     <Stopwatch/>
       
       
       
